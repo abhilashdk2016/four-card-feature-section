@@ -79,7 +79,7 @@ p {
 
 .box p {
     font-size: 14px;
-    margin: 15px 0 30px;
+    margin: 15px 0 40px;
 }
 
 .box img {
@@ -89,5 +89,15 @@ p {
 
 footer {
     text-align: center;
+}
+
+.push-box {
+    transform: translateY(50%);
+}
+
+@media (max-width: 775px) {
+    .push-box {
+        transform: translateY(0);
+    }
 }
 
